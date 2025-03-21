@@ -1,0 +1,21 @@
+# Ignorar dependencias y archivos generados
+node_modules/
+.vscode/
+.DS_Store  # Archivos de Mac
+*.log  # Archivos de log
+*.tmp  # Archivos temporales
+
+# Ignorar archivos del sistema
+Thumbs.db  # Archivos de Windows
+
+# Ignorar configuraciones de entorno
+.env
+.env.local
+
+# Ignorar compilaciones y archivos de caché
+dist/
+build/
+out/
+*.pyc  # Archivos compilados de Python
+*.class  # Archivos compilados de Java
+*.exe  # Ejecutables
